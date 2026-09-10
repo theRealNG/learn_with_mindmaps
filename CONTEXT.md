@@ -19,3 +19,6 @@ The action of generating a Node's children. Expansion is Map-aware: it is genera
 
 **Leaf**
 A Node the user has chosen not to (or cannot usefully) expand further — the bottom of a given branch's detail.
+
+**Profile**
+A named set of connection settings for one LLM: which provider, which model, and the credentials needed to reach it. A Profile is chosen when a Map is opened and can be switched between generations, so it is not a property of a Map — Nodes within one Map may have been generated under different Profiles, and each Node records the Profile that generated it. Profiles exist so that separately-credentialled LLMs — a work-approved one and a personal one, say — can both be used from a single install.
