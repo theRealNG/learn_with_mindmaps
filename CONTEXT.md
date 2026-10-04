@@ -19,3 +19,7 @@ The action of generating a Node's children. Expansion is Map-aware: it is genera
 
 **Leaf**
 A Node the user has chosen not to (or cannot usefully) expand further — the bottom of a given branch's detail.
+
+**Slop**
+Low information-density text: padding, restatement, hedging, generic framing (intros/outros), and filler lists. Slop is a property of how much a text says, not whether it is true — a dense but wrong passage is not Slop. Clearing Slop from a **Document** Source and presenting what remains as a Map is the product's core promise.
+_Avoid_: "AI slop" as a synonym for misinformation or hallucination.
