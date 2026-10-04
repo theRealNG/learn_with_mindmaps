@@ -2,6 +2,10 @@
 
 ## Glossary
 
+**User**
+A person with an account. A User owns their Maps; Maps are private to their owner.
+_Avoid_: "account" and "workspace" as synonyms — there is no team-level owner.
+
 **Source**
 The input material a Map is built from. Three kinds: a **Codebase** (a repository or subset of one), a **Document** (an article, paper, or other large text), or a **Topic** (an open-ended subject with no supplied text — content comes from the AI's own knowledge, not an ingested document).
 
